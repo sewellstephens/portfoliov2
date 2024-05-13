@@ -7,19 +7,21 @@
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build && npm i",
+    "start": "next start"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@notion-render/bookmark-plugin": "^0.0.2",
-    "@notion-render/client": "^0.0.2",
-    "@notion-render/hljs-plugin": "^0.0.2",
+    "@9gustin/react-notion-render": "^3.11.3",
     "@notionhq/client": "^0.1.9",
+    "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.2.5",
     "next": "^14.2.3",
+    "notion-block-renderer": "^2.3.13",
     "postcss": "^8.2.8",
-    "tailwindcss": "^2.0.3",
-    "@tailwindcss/typography": "^0.4.0"
+    "tailwindcss": "^2.0.3"
   }
 }

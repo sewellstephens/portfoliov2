@@ -11,7 +11,7 @@ export default async function Home() {
 
 
   return (
-    <div className="m-auto max-w-[870px]">
+    <div className="m-auto max-w-4xl">
       <Header />
       <div className='flex gap-4'>
         <Link href="/" className='underline hover:text-gray-600 text-gray-900'>
