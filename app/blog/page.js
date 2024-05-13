@@ -1,6 +1,5 @@
 import Header from '../../components/header';
 import Link from 'next/link';
-import { NotionRenderer } from "@notion-render/client";
 import { fetchPages, fetchPageBlocks } from '../../lib/notion';
 
 export default async function Home() {
