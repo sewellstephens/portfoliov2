@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && npm i",
     "start": "next start",
     "lint": "next lint"
   },
@@ -12,7 +12,11 @@
     "@tailwindcss/typography": "^0.5.13",
     "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "@notionhq/client": "^0.4.0",
+    "@notion-renderer/client": "^0",
+    "@notion-renderer/bookmark-plugin": "^0",
+    "@notion-renderer/hljs-plugin": "^0"
   },
   "devDependencies": {
     "postcss": "^8",
