@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Header() {
     return (
         <div>
-            <Link href="/" className="text-lg mt-4 text-gray-900 hover:text-gray-600 underline">
+            <Link href="/" className="text-lg mt-4 text-gray-900 hover:text-gray-500 underline">
                 Back to home
             </Link>
 
