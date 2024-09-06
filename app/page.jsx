@@ -43,8 +43,18 @@ export default function Home() {
       </div>
       <div className='mt-4'>
 
-<h1 className="text-xl font-bold">Newsletter</h1>
-<p>Subscribe to my newsletter to get updates on my latest articles and projects.</p>
+<h1 className="text-xl font-bold mt-12">Projects</h1>
+
+<div className="mt-4">
+  <h2 className="mt-4 underline text-gray-900 hover:text-gray-500"><a href="https://krastie.ai">Krastie AI</a></h2>
+  <p>AI Copilot and content generation SaaS</p>
+
+  <h2 className="mt-4 underline text-gray-900 hover:text-gray-500"><a href="https://github.com/sewellstephens/express-authorize">Express Authorize</a></h2>
+  <p>Open source authorization for Express made easy</p>
+</div>
+
+<h1 className="text-xl font-bold mt-12">Newsletter</h1>
+<p className="mt-4">Subscribe to my newsletter to get updates on my latest articles and projects.</p>
 
 <form onSubmit={newsletter} className="mt-4 w-[50%]" method="POST">
   <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
