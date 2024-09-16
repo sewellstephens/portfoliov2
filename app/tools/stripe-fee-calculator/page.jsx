@@ -105,7 +105,7 @@ export default function StripeFeeCalculator() {
 
           <p className="mt-4">Stripe Fee Calculator is a tool that helps you calculate the fees for your Stripe transactions. Enter the amount you want to charge, select the optional fees you want to include, and click calculate. The tool will show you the total amount you will receive after fees.</p>
 
-          <p className="mt-4">Other Stripe billing calculators arent typically inaccurate due to varying fees associated with addition products typically added to Stripe such as Stripe Radar, Stripe Climate, and Stripe Tax. For any inaccuracies in calculations please email sewellstephens104@gmail.com or shoot me a DM on X.</p>
+          <p className="mt-4">Other Stripe billing calculators arent typically accurate due to varying fees associated with addition products added to Stripe such as Stripe Radar, Stripe Climate, and Stripe Tax. For any inaccuracies in calculations please email sewellstephens104@gmail.com or shoot me a DM on X.</p>
 
         </div>
 
