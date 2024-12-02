@@ -47,17 +47,17 @@ export default function Home() {
 <h1 className="text-xl font-bold mt-12">Projects and tools</h1>
 
 <div className="mt-4">
-  <h2 className="mt-4 underline text-gray-900 hover:text-gray-500"><a href="https://krastie.ai">Krastie AI</a></h2>
+  <h2 className="mt-4 underline text-gray-900 hover:text-gray-500"><a href="https://www.krastie.ai">Krastie AI</a></h2>
   <p>AI Copilot and content generation SaaS</p>
+
+  <h2 className="mt-4 underline text-gray-900 hover:text-gray-500"><a href="https://www.amortec.one">Amortec</a></h2>
+  <p>AI observability and monitoring</p>
 
   <h2 className="mt-4 underline text-gray-900 hover:text-gray-500"><a href="https://github.com/sewellstephens/express-authorize">Express Authorize</a></h2>
   <p>Open source authorization for Express made easy</p>
 
   <h2 className="mt-4 underline text-gray-900 hover:text-gray-500"><a href="/tools/stripe-fee-calculator">Stripe billing calculator</a></h2>
   <p>Calculate Stripe billing fees with ease</p>
-
-  <h2 className="mt-4 underline text-gray-900 hover:text-gray-500"><a href="/tools/word-counter">Word counter</a></h2>
-  <p>Count the words in your text</p>
 
 </div>
 
